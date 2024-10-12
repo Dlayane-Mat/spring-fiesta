@@ -71,3 +71,7 @@ nav ul li a:hover::after {
   transition: all 0.4s ease-in-out;
   border: 2px solid saddlebrown;
 }
+.btn:hover {
+  background: transparent;
+  color: #333;
+}
