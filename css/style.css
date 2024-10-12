@@ -112,3 +112,14 @@ h2 {
   margin: 30px;
   padding: 10px;
 }
+.img-fluid {
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 20px 5px;
+}
+p {
+  font-family: garamond;
+}
+.mt-5 {
+  font-size: 24px;
+}
