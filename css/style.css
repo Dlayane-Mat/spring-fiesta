@@ -1,0 +1,27 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background: #bba08d;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
