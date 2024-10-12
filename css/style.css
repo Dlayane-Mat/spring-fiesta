@@ -1,35 +1,40 @@
-# {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+:root {
+  --primary-color: #e98945;
+  --secondary-color: #333;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+body {
+  margin: 60px auto;
+  font-family: "Sofia", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
-.hero {
+.container {
   height: 100vh;
   width: 100vw;
-  background: #e98945;
+  background: var(--primary-color);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 100px;
+  padding: 15px 30px;
 }
 .logo {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: bold;
-  color: #333;
+  color: var(--secondary-color);
   cursor: pointer;
+  font-family: Garamond, serif;
 }
 .logo::first-letter {
-  font-size: 30px;
+  font-size: 75px;
   border: 2px solid #222;
   border-right: transparent;
-  padding-left: 5px;
+  padding-left: 15px;
   color: saddlebrown;
 }
 nav ul li {
@@ -39,9 +44,11 @@ nav ul li {
 }
 nav ul li a {
   position: relative;
-  color: #333;
+  color: var(--secondary-color);
   font-weight: bold;
   padding: 5px 0;
+  font-size: 22px;
+  font-family: Garamond, serif;
 }
 nav ul li a:hover {
   color: saddlebrown;
@@ -64,34 +71,47 @@ nav ul li a:hover::after {
   font-size: 16px;
   text-transform: uppercase;
   background: saddlebrown;
-  padding: 10px 30px;
-  border-radius: 500px;
-  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
   font-weight: 500;
   transition: all 0.4s ease-in-out;
   border: 2px solid saddlebrown;
+  font-family: Garamond, serif;
+  box-shadow: var(--box-shadow);
 }
 .btn:hover {
   background: transparent;
-  color: #333;
+  color: var(--secondary-color);
 }
 .details {
   position: absolute;
   top: 35%;
   left: 8%;
 }
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+}
 h1 {
-  color: #333;
-  font-size: 70px;
-  font-weight: 700;
+  color: var(--secondary-color);
+  font-size: 78px;
+  font-weight: 700s;
   line-height: 10px;
   color: saddlebrown;
+  margin: 30px;
+  padding: 10px px;
+  font-family: Garamond, serif;
 }
-h2 {
+.hero p {
   font-weight: bold;
   font-size: 32px;
+  margin: 0px;
+  padding-top: 0px;
+  color: ;
 }
-h3 {
-  opacity: 0.7;
-  font-size: 24px;
+h2 {
+  opacity: 0.9;
+  font-size: 22px;
+  margin: 30px;
+  padding: 10px;
 }
