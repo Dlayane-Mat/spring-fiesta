@@ -22,6 +22,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
+  overflow: auto;
 }
 .logo {
   font-size: 60px;
@@ -53,20 +54,7 @@ nav ul li a {
 nav ul li a:hover {
   color: saddlebrown;
 }
-nav ul li a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 3px;
-  background: saddlebrown;
-  transition: 0.3s;
-}
-nav ul li a:hover::after {
-  width: 100%;
-}
-.btn {
+.btn-branding {
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -128,6 +116,7 @@ p {
 h3 {
   font-family: Copperplate, Papyrus, fantasy;
 }
+
 footer {
   margin: 60px 0;
 }
@@ -139,4 +128,44 @@ footer {
   font-family: poppins;
   margin: 40px;
   color: #e98945;
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 22px;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 1.5;
+  }
+  .btn-branding {
+    display: block;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  h3{
+    font-size: 18px;
+  }
+.hero p{
+  font-size: 24px;
+}
+.logo{
+  font-size: 45px;
+}
+.logo::first-letter {
+font-size: 55px;
+}
+nav ul li a{
+  font-size: 14px;
+}
+p{
+  font-size:14px;
+}
+nav ul li{
+  display:block;
+  font-size: 14px;
+  margin-left: 5px;
 }
