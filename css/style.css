@@ -4,8 +4,8 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
-  margin: 60px auto;
   font-family: "Sofia", sans-serif;
+  margin: 10px auto;
 }
 
 a {
@@ -22,7 +22,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  overflow: auto;
+  color: saddlebrown;
 }
 .logo {
   font-size: 60px;
