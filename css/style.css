@@ -99,6 +99,15 @@ h1 {
   padding: 10px px;
   font-family: Garamond, serif;
 }
+.about-section h1{
+  font-size:40px;
+  line-height:55px;
+}
+.about-section p{
+  font-family: "Cormorant Garamond", serif;;
+  font-size: 16px;
+  opacity: 0.6;
+}
 .hero p {
   font-weight: bold;
   font-size: 36px;
