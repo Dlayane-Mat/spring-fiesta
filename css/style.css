@@ -152,24 +152,32 @@ footer {
   color: sandybrown;
 }
 @media (max-width: 576px) {
+  .container {
+    text-align: center;
+    padding: 0;
+    margin: 15px;
+  }
   h2 {
     font-size: 22px;
   }
   h1 {
     font-size: 38px;
-    line-height: 1.5;
+    line-height: 15px;
   }
   .btn {
     display: block;
     text-align: center;
+    margin: 20px 100px;
   }
   p {
     text-align: center;
     font-size: 18px;
     line-height: 1.5;
+    margin: 10px;
   }
   h3 {
     font-size: 18px;
+    margin: 15px;
   }
   .hero p {
     font-size: 24px;
@@ -194,18 +202,21 @@ footer {
   .about-section {
     text-align: center;
     padding: 0;
-    margin: 0px;
+    margin: 10px;
   }
   .about-section p {
     font-size: 13px;
   }
   .about-section h1 {
-    font-size: 20px;
+    font-size: 30px;
+    margin: 10px;
   }
   .about-section h2 {
-    font-size: small;
+    font-size: medium;
+    margin: 10px;
   }
   .img-fluid {
     width: 350px;
+    margin: 0;
   }
 }
