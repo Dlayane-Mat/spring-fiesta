@@ -97,6 +97,9 @@ h1 {
   padding: 10px px;
   font-family: Garamond, serif;
 }
+.about-section {
+  margin-bottom: 90px;
+}
 .about-section h1 {
   font-size: 40px;
   line-height: 55px;
